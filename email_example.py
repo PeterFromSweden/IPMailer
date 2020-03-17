@@ -14,8 +14,8 @@ with open(textfile) as fp:
 # me == the sender's email address
 # you == the recipient's email address
 msg['Subject'] = f'The contents of {textfile}'
-msg['From'] = 'peter.liedholm@securemeters.com'
-msg['To'] = 'herrliedholm@gmail.com'
+msg['From'] = 'peterfromswe884@gmail.com'
+msg['To'] = 'peterfromswe884@gmail.com'
 
 # Send the message via our own SMTP server.
 s = smtplib.SMTP('localhost')

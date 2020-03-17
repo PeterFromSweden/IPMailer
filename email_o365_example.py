@@ -4,7 +4,7 @@ scopes = ['https://graph.microsoft.com/Mail.ReadWrite', 'https://graph.microsoft
 account = Account(credentials, scopes=scopes)
 account.authenticate()
 m = account.new_message()
-m.to.add('herrliedholm@gmail')
+m.to.add('peterfromswe884@gmail.com')
 m.subject = 'Testing!'
 m.body = "George Best quote: I've stopped drinking, but only while I'm asleep."
 m.send()

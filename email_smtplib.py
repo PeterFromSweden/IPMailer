@@ -7,7 +7,7 @@ import getpass
 import socket
 
 
-class MailService: # Office 365
+class MailService:  # Office 365
     def __init__(self, user, psw):
         self.user = user
         self.psw = psw
